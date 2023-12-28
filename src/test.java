@@ -4,5 +4,7 @@ public class test {
         int intValue = Integer.parseInt(str); // int 반환
         Integer integerValue = Integer.valueOf(str); // int 반환
         System.out.println(integerValue);
+
+
     }
 }
