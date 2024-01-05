@@ -1,8 +1,6 @@
-package count;
+package count.array;
 
-import java.util.ArrayList;
-
-public class Array {
+public class Array1 {
     class Solution {
         public int[] solution(long n) {
             String number = Long.toString(n);
