@@ -32,6 +32,10 @@ public class Array2 {
             for (String aList : list) sb.append(aList);
 
             return Long.parseLong(sb.reverse().toString());
+
+            //StringBuilder와 StringBuffer 함수에서는 reverse() 메서드 사용가능 = 뒤집기
+            //append 메서드도 "
+            //StringBuilder 객체 자체는 문자열이 아니라 !!!!! 가변적인 문자열을 관리하는 자료구조
         }
     }
 
