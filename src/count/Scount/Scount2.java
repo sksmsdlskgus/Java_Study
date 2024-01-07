@@ -17,4 +17,19 @@ public class Scount2 {
             return answer;
         }
     }
+
+    class Solution2 {
+        public boolean solution2(int x) {
+            boolean answer = true;
+            int a = x;
+            int hap = 0;
+            while(x != 0){
+                hap += x%10;
+                x /=10;
+            }
+            answer = (a%hap==0) ? true : false ;
+            return answer;
+        }
+    }
+
 }
