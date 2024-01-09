@@ -1,6 +1,6 @@
-package count;
+package count.Scount;
 
-public class Scount {
+public class Scount1 {
     // s 문자열안에 특정 문자 개수 비교 ture || false
     // 대소문자 구별 x
     // 기본 반환값 true

@@ -1,6 +1,6 @@
-package count;
+package count.Plus;
 
-public class Plus {
+public class Plus1 {
     public class Solution { // 각 자릿수 합
         public int solution(int n) {
             int answer = 0;
