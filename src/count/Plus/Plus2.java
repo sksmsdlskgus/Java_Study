@@ -1,6 +1,23 @@
 package count.Plus;
 
 public class Plus2 {
+
+    class Solution1 {
+        public long solution1(int a, int b) {
+            long answer = 0;
+
+            if (a < b) {
+                for (int i = a; i <= b; i++) {
+                    answer += i;
+                }
+            } else {
+                for (int i = b; i <= a; i++) {
+                    answer += i;
+                }
+            }
+            return answer;
+        }
+    }
     class Solution {
         public long solution(int a, int b) {
             // a와 b 사이에 있는 모든 정수의 합을 계산하여 반환합니다.
