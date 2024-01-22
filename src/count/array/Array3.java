@@ -12,8 +12,8 @@ public class Array3 {
         }
     }
 
-    class Solution {
-        public int[] solution(int[] arr, int divisor) {
+    class Solution2 {
+        public int[] solution2(int[] arr, int divisor) {
             int[] answer ={-1};
             int count = 0;
 
